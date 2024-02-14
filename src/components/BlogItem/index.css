@@ -1,0 +1,31 @@
+/* Write your CSS code here */
+.title-publisheddate-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Roboto';
+}
+.title-text {
+  font-size: 24px;
+  font-weight: 800;
+  color: #12022f;
+}
+.publishedDate-text {
+  font-size: 14px;
+  color: #9aa5b1;
+}
+.description-text {
+  font-size: 14;
+  color: #9aa5b1;
+}
+@media screen and (max-width:991px){
+  .title-text{
+    font-size: 20px;
+  }
+.publishedDate-text{
+  font-size: 14px;
+}
+.description-text{
+  font-size: 14px;
+}
+}

@@ -1,0 +1,29 @@
+/* Write your CSS code here */
+.userInfo-container {
+  padding: 20px;
+}
+.user-imfo-image {
+  height: 200px;
+}
+.heading-profile {
+  font-family: 'Roboto';
+  font-size: 32px;
+  font-weight: 600;
+  color: #12022f;
+}
+.profile-designation {
+  font-family: 'Roboto';
+  font-size: 22px;
+  color: #616e7c;
+}
+@media (max-width: 991px) {
+  .user-imfo-image {
+    height: 150px;
+  }
+  .heading-profile {
+    font-size: 22px;
+  }
+  .profile-designation {
+    font-size: 12px;
+  }
+}
